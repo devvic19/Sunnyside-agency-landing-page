@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+    
+body{
+    background-color: hsl(210, 4%, 67%);
+    font-family: Barlow,sans-serif;
+    margin: 0;
+   
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+    
+}
+
+
+h1{
+    text-align: center;
+}
+.creatives{
+    width: 100%;
+    height: 400px;
+    background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-header.jpg);
+    background-size: 100% 400px;
+    color: white;
+    
+
+}
+button{
+   border-radius: 17px;
+   border-style: none;
+   padding-left: 10px;
+   padding-right: 10px;
+   width: 90px;
+   height: 30px;
+   margin-top: 12px;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto auto;
+    
+    
+}
+
+.transform{
+    display: flex;
+    padding: 20px;
+    background-color: white;  
+
+}
+.writing{
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+.trans-img{
+    width: 50%;
+    height: 100%;
+    flex-grow: 1;
+    
+    
+}
+.stand-img{
+    width: 50%;
+    height: 100%;
+}
+
+
+.stand-out{
+    padding: 20px;
+    display: flex;
+    width: 2fr;
+    background-color: white;
+}
+.graphic{
+    padding: 20px;
+    width: 50%;
+    height: 300px;
+    background-size: 100% 400px;
+    background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg);
+}
+.photography{
+    padding: 20px;
+    width: 50%;
+    height: 300px;
+    background-size: 100% 400px;
+    background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
+}
+.paragraphs{
+    display: flex;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.socials{
+    display: flex;
+    height: 20px;
+    width: 40px;
+    gap: 10px;
+}
+.sunny{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.Sunnyside{
+    background-color: hsl(168, 34%, 41%);
+}
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.column-emily{
+    flex: 1;
+    padding: 40px;
+}
+.column-thomas{
+    flex: 1;
+    padding: 40px;
+}
+.column-jennie{
+    flex: 1;
+    padding: 40px;
+}
+
+.emily-img{
+    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+.thomas-img{
+    border-radius: 50%; 
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+.jennie-img{
+    border-radius: 50%; 
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+  
+@media (max-width: 700px){
+    .transform{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: white;
+    
+    }
+    .stand-out{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 2fr;
+        background-color: white;
+    }
+    .paragraphs{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        text-align: center;
+    }
+    .images{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+        
+    }
+    .trans-img{
+        width: 100%;
+        height: 100%; 
+        
+    }
+    .stand-img{
+        width: 100%;
+        height: 100%;
+    }
+    .graphic{
+        padding: 20px;
+        width: 100%;
+        height: 300px;
+        background-size: 100% 400px;
+        background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-graphic-design.jpg);
+    }
+    .photography{
+        padding: 20px;
+        width: 100%;
+        height: 300px;
+        background-size: 100% 400px;
+        background-image: url(/sunnyside-agency-landing-page-main/images/desktop/image-photography.jpg);
+    }
+    .column-emily{
+        flex: 1;
+        padding: 40px;
+    }
+    
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+      }
+      
+      .menu-toggle span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color:#000; 
+        margin-bottom: 4px;
+        margin-left: 5px;
+        
+
+
+        
+    
+  
+      }
+      nav.show-menu .menu {
+        display: block;
+      }
+      .menu {
+        display: none; 
+        align-content: end
+      }
+  
+    
+
+
+
+
+
+
+
+
+
+}
